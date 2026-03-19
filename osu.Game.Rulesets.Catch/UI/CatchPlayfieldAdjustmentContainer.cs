@@ -45,7 +45,7 @@ namespace osu.Game.Rulesets.Catch.UI
                     RelativeSizeAxes = Axes.X,
                     Height = base_game_height + extra_bottom_space,
                     Y = extra_bottom_space / 2,
-                    Masking = true,
+                    Masking = false,
                     Child = new Container
                     {
                         Name = "Playable area",
